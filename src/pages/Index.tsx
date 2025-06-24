@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { GraduationCap, Palette, Plane, Users, Award, Globe } from "lucide-react";
@@ -11,17 +10,14 @@ const Index = () => {
     <div className="min-h-screen">
       <Navigation />
       
-      {/* Hero Section with Video Background */}
+      {/* Hero Section with Photo Background */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <video 
-            autoPlay 
-            muted 
-            loop 
+          <img 
+            src="/lovable-uploads/942e4db3-1d26-48d3-8180-9cd6e6d0b85c.png"
+            alt="Students learning together"
             className="w-full h-full object-cover"
-          >
-            <source src="https://assets.mixkit.co/videos/preview/mixkit-students-working-together-in-a-library-4620-large.mp4" type="video/mp4" />
-          </video>
+          />
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
         
